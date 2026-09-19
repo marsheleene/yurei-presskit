@@ -1,4 +1,4 @@
-import Copyright from "@/components/Presskit/Copyright/Copyright";
+import Copyright from '@/Presskit/Copyright/Copyright'
 
 function Footer() {
     return (

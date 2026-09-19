@@ -20,9 +20,10 @@
     ],
     "baseUrl": "/",
     "paths": {
-      "@/*": ["./*"],
       "@/styles/*":["styles/*"],
-      "@/components/*": ["components/*"]
+      "@/Layout/*":["components/Layout/*"],
+      "@/Presskit/*": ["components/Presskit/*"],
+      "@/Images/*": ["images/*"]
     }
   },
   "include": [
@@ -32,6 +33,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-, "components/Layout/MainLayout.js"  ],
+   ],
   "exclude": ["node_modules"]
 }

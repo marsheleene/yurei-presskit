@@ -1,7 +1,7 @@
 function Header() {
     return (
-        <div className="flex flex-col items-center">
-            Header
+        <div className="">
+            <h1>Yūrei Press Kit</h1>
         </div>
     );
 }
