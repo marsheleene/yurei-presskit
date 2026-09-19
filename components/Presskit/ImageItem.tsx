@@ -15,7 +15,7 @@ function ImageItem(props:any) {
   }
 
   return (
-    <Link 
+    <a 
       href={props.src.src}
       className={className}
       target="_blank"
@@ -28,7 +28,7 @@ function ImageItem(props:any) {
         className="mx-auto"
         priority={props.large}
       />
-    </Link>
+    </a>
   );
 }
 

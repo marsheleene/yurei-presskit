@@ -1,4 +1,4 @@
-import ImageItem from '../ImageItem'
+import ImageItem from '@/Presskit/ImageItem'
 import YureiLogo from '@/Images/yurei-logo.png'
 
 function Logos() {
