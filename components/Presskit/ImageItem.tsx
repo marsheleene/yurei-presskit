@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-function ImageItem(props: any) {
+function ImageItem(props:any) {
   let className = "break-inside-avoid-column block cursor-pointer my-drop-shadow hover:scale-105 transition duration-300";
   let sizes = "(max-width: 768px) 50vw, 75vw";
   if (!props.large) {

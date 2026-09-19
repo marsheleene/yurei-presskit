@@ -3,7 +3,7 @@ import Footer from '@/Layout/Footer';
 import LeftColumn from '@/Layout/LeftColumn';
 import MainColumn from '@/Layout/MainColumn';
 
-function MainLayout(props) {
+function MainLayout(props:any) {
     
     let className = ""
     if (props.className) {

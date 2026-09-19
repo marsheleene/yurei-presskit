@@ -5,7 +5,7 @@ import Images from '@/Presskit/Images/Images'
 import Logos from '@/Presskit/Logos/Logos'
 import Credits from '@/Presskit/Credits/Credits'
 
-function MainColumn(props) {
+function MainColumn(props:any) {
     
     let className = ""
     if (props.className) {

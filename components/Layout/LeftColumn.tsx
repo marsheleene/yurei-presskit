@@ -1,7 +1,7 @@
 import TOC from '@/Presskit/TOC/TOC'
 import FactSheet from '@/Presskit/FactSheet/FactSheet'
 
-function LeftColumn(props) {
+function LeftColumn(props:any) {
     
     let className = ""
     if (props.className) {
