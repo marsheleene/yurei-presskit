@@ -1,7 +1,20 @@
+import ImageItem from '@/Presskit/ImageItem'
+import YureiLogo from '@/Images/yurei-logo.png'
+
 function Header(props:any) {
     return (
         <div className="">
             <h1>Yūrei Press Kit</h1>
+            
+      <ImageItem 
+        className="md:mx-auto w-full 2xl:w-9/12" 
+        center 
+        large 
+        src={YureiLogo} 
+        display={YureiLogo} 
+        name="Yurei logo" 
+        alt="Yurei logo" />
+
         </div>
     );
 }
