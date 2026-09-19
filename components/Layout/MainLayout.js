@@ -10,7 +10,7 @@ function MainLayout(props) {
             </header>
 
             <main>
-                Hello world
+                Hello world!
             </main>
 
             <footer>
