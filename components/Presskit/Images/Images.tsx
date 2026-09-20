@@ -9,7 +9,7 @@ function Images() {
     <>
       <h2 id="images">Images</h2>
 
-      <div className="grid grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <ImageItem src={Screenshot01} filename="yurei-screenshot01.jpg" alt="Yurei screenshot" />
         <ImageItem src={Screenshot02} filename="yurei-screenshot02.jpg" alt="Yurei screenshot" />
         <ImageItem src={Screenshot03} filename="yurei-screenshot03.jpg" alt="Yurei screenshot" />

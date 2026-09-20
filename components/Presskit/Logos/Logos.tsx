@@ -11,7 +11,7 @@ function Logos() {
     <>
       <h2 id="logos">Logos & Key Art</h2>
 
-      <div className="grid grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 
         <ImageItem 
           center 
