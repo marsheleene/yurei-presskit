@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     description: descriptionPage,
     images: [
       {
-          url: "./images/yurei-keyart-logo-landscape-small.png",
+          url: "./images/yurei-keyart-logo-og.jpg",
           alt: "Yurei key art"
       }
     ],
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     images: [
       {
-          url: "./images/yurei-keyart-logo-landscape-small.png",
+          url: "./images/yurei-keyart-logo-og.jpg",
           alt: "Yurei key art"
       }
     ],
