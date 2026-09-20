@@ -9,7 +9,7 @@ function Header(props:any) {
       <ImageItem 
         center 
         large 
-        src={YureiLogo} 
+        src={'@/Images/yurei-logo.png'} 
         display={YureiLogo} 
         name="Yurei logo" 
         alt="Yurei logo" />
