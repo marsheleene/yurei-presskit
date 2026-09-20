@@ -21,6 +21,7 @@ function MainColumn(props:any) {
               center 
               large 
               src={YureiKeyartLogo} 
+              filename="yurei-keyart-logo.png"
               alt="Yurei logo" />
             <Synopsis />
             <About />
