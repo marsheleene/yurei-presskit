@@ -1,6 +1,4 @@
-import Image from 'next/image';
 import ExportedImage from "next-image-export-optimizer";
-import Link from 'next/link';
 
 function ImageItem(props:any) {
   let className = "break-inside-avoid-column block cursor-pointer my-drop-shadow hover:scale-105 transition duration-300";
@@ -30,9 +28,7 @@ function ImageItem(props:any) {
         src={props.src} 
         sizes={sizes}
         alt={props.alt} 
-        // quality={quality}
         className="mx-auto"
-        // priority={props.large}
         basePath='/yurei-presskit'
       />
     </a>
