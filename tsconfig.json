@@ -23,7 +23,7 @@
       "@/styles/*":["styles/*"],
       "@/Layout/*":["components/Layout/*"],
       "@/Presskit/*": ["components/Presskit/*"],
-      "@/Images/*": ["public/images/*"]
+      "@/Images/*": ["images/*"]
     }
   },
   "include": [
