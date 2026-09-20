@@ -13,6 +13,10 @@ function ImageItem(props:any) {
   if (props.className) {
     className += " " + props.className;
   }
+  let quality = 50;
+  if (props.quality) {
+    quality = props.quality;
+  }
 
   return (
     <a 
@@ -24,7 +28,7 @@ function ImageItem(props:any) {
         src={props.display} 
         sizes={sizes}
         alt={props.alt} 
-        quality={100}
+        quality={quality}
         className="mx-auto"
         priority={props.large}
       />
