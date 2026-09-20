@@ -15,8 +15,8 @@ const brushstrokeHorror = localFont({
   variable: "--font-brushstroke-horror",
 })
 
-const titlePage = "Yūrei Press Kit";
-const descriptionPage = "Yūrei is a psychological horror game set in a manga’s haunted pages.";
+const titlePage = "Yurei Press Kit";
+const descriptionPage = "Yurei is a psychological horror game set in a manga’s haunted pages.";
 
 export const metadata: Metadata = {
   title: titlePage,
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     images: [
       {
           url: "./images/yurei-keyart-logo-landscape-small.png",
-          alt: "Yūrei key art"
+          alt: "Yurei key art"
       }
     ],
     url: "https://marsheleene.github.io/yurei-presskit/",
@@ -40,12 +40,12 @@ export const metadata: Metadata = {
     title: titlePage,
     description: descriptionPage,
     site: "https://marsheleene.github.io/yurei-presskit/",
-    creator: "Team Yūrei",
+    creator: "Team Yurei",
     card: 'summary_large_image',
     images: [
       {
           url: "./images/yurei-keyart-logo-landscape-small.png",
-          alt: "Yūrei key art"
+          alt: "Yurei key art"
       }
     ],
   },
