@@ -22,11 +22,12 @@ function ImageItem(props:any) {
   return (
     <a 
       href={props.src.src}
+      download={props.filename}
       className={className}
       target="_blank"
     >
       <ExportedImage 
-        src={props.display} 
+        src={props.src} 
         sizes={sizes}
         alt={props.alt} 
         // quality={quality}

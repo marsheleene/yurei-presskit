@@ -9,9 +9,8 @@ function Header(props:any) {
       <ImageItem 
         center 
         large 
-        src={YureiLogo.src} 
-        display={YureiLogo} 
-        name="Yurei logo" 
+        src={YureiLogo}
+        filename="yurei-logo.png" 
         alt="Yurei logo" />
 
         </div>
