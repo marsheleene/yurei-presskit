@@ -7,7 +7,7 @@ function ImageItem(props:any) {
     className += " max-w-4xl";
   }
   if (props.center) {
-    className += " column-span-all";
+    className += " col-span-full";
   }
   if (props.className) {
     className += " " + props.className;
@@ -21,7 +21,6 @@ function ImageItem(props:any) {
     return (
       <a 
         href={props.src.src}
-        download={props.filename}
         className={className}
         target="_blank"
       >

@@ -28,13 +28,17 @@ body {
 }
 
 h1 {
-  @apply mb-4 text-4xl tracking-tight;
+  @apply my-4 text-6xl tracking-wide;
   font-family: var(--font-brushstroke-horror);
   text-transform: uppercase;
 }
 
 h2 {
-  @apply mb-4 text-xl font-bold tracking-tight;
+  @apply my-4 text-xl font-bold tracking-wider;
+}
+
+h3 {
+  @apply text-xl;
 }
 
 em {
@@ -55,4 +59,9 @@ a {
 a:hover {
   @apply scale-105 transition duration-150;
   font-weight: bold;
+}
+
+hr {
+  border-color: var(--accentuate-color);
+  border-width: 2px;
 }

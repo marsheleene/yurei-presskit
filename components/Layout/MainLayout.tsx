@@ -17,8 +17,8 @@ function MainLayout(props:any) {
             </header>
 
             <main className="grid grid-cols-3 gap-10">
-                <LeftColumn className="col-span-1" />
-                <MainColumn className="col-span-2" />
+              <LeftColumn className="col-span-1" />
+              <MainColumn className="col-span-2" />
             </main>
 
             <footer>

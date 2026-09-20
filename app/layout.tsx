@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Fredoka } from 'next/font/google';
 import localFont from 'next/font/local';
 
-import Keyart from '@/Images/keyart.png';
+import Keyart from '@/Images/yurei-keyart-logo-landscape.png';
 import '@/Styles/globals.css';
 
 const fredoka = Fredoka({ 

@@ -6,7 +6,9 @@ import Logos from '@/Presskit/Logos/Logos'
 import Credits from '@/Presskit/Credits/Credits'
 import ImageItem from '@/Components/ImageItem'
 
-import YureiKeyartLogo from '@/Images/keyart-logo.png'
+import Separator from '@/Components/Separator'
+
+import KeyartLogo from '@/Images/yurei-keyart-logo-landscape.png'
 
 function MainColumn(props:any) {
     
@@ -17,17 +19,33 @@ function MainColumn(props:any) {
 
     return (
         <div className={className}>
+
             <ImageItem 
               center 
               large 
-              src={YureiKeyartLogo} 
-              filename="yurei-keyart-logo.png"
+              src={KeyartLogo} 
               alt="Yurei logo" />
+
+            <Separator />
+
             <Synopsis />
+
             <About />
+            
+            <Separator />
+
             <Videos />
+            
+            <Separator />
+
             <Images />
+
+            <Separator />
+
             <Logos />
+
+            <Separator />
+
             <Credits />
         </div>
     );
