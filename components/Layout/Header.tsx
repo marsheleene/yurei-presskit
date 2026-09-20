@@ -7,7 +7,6 @@ function Header(props:any) {
             <h1>Yūrei Press Kit</h1>
             
       <ImageItem 
-        className="md:mx-auto w-full 2xl:w-9/12" 
         center 
         large 
         src={YureiLogo} 
