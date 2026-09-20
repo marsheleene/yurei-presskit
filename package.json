@@ -4,14 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next-image-export-optimizer",
+    "build": "next build",
     "start": "next start",
     "lint": "eslint",
     "lint:fix": "eslint --fix"
   },
   "dependencies": {
     "next": "16.3.5",
-    "next-image-export-optimizer": "^1.21.1",
     "react": "19.2.8",
     "react-dom": "19.2.8"
   },

@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import ExportedImage from 'next-image-export-optimizer';
 import Link from 'next/link';
 
 function ImageItem(props:any) {
@@ -25,11 +24,11 @@ function ImageItem(props:any) {
       className={className}
       target="_blank"
     >
-      <ExportedImage 
+      <Image 
         src={props.display} 
         sizes={sizes}
         alt={props.alt} 
-        // quality={quality}
+        quality={quality}
         className="mx-auto"
         priority={props.large}
       />
