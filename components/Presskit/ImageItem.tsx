@@ -32,6 +32,7 @@ function ImageItem(props:any) {
         // quality={quality}
         className="mx-auto"
         // priority={props.large}
+        basePath='/yurei-presskit'
       />
     </a>
   );
