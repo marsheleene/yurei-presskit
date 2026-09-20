@@ -18,7 +18,8 @@ const nextConfig: NextConfig = {
     nextImageExportOptimizer_generateAndUseBlurImages: "true",
     nextImageExportOptimizer_remoteImageCacheTTL: "0",
   },
-  basePath: "",
+  basePath: "yurei-presskit/",
+  assetPrefix: "/yurei-presskit/",
 };
 
 export default nextConfig;
