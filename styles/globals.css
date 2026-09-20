@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+:root {
+  --background-color: #0a0a0a;
+  --main-color: #e0e0e0;
+  --accentuate-color: #FA5C5C;
+  --link-color: var(--accentuate-color);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #0a0a0a;
+    --main-color: #e0e0e0;
+  }
+}
+
+body {
+  background: var(--background-color);
+  color: var(--main-color);
+  font-family: var(--font-fredoka);
+}
+
+h1 {
+  @apply mb-4 text-4xl tracking-tight;
+  font-family: var(--font-brushstroke-horror);
+  text-transform: uppercase;
+}
+
+h2 {
+  @apply mb-4 text-xl font-bold tracking-tight;
+}
+
+em {
+  color: var(--accentuate-color);
+  font-weight: bold;
+  font-style: normal;
+}
+
+a {
+  @apply scale-100 transition duration-150;
+  color: var(--link-color);
+  text-decoration: underline;
+  text-decoration-color: var(--link-color);
+  text-decoration-thickness: 2px;
+  display: inline-block;
+}
+
+a:hover {
+  @apply scale-105 transition duration-150;
+  font-weight: bold;
+}

@@ -20,10 +20,13 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@/styles/*":["styles/*"],
+      "@/Styles/*":["styles/*"],
       "@/Layout/*":["components/Layout/*"],
       "@/Presskit/*": ["components/Presskit/*"],
-      "@/Images/*": ["images/*"]
+      "@/Components/*": ["components/Components/*"],
+      "@/Images/*": ["images/*"],
+      "@/Fonts/*": ["fonts/*"],
+      "@/Public/*": ["public/*"],
     }
   },
   "include": [

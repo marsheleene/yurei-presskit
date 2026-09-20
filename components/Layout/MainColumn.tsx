@@ -4,6 +4,9 @@ import Videos from '@/Presskit/Videos/Videos'
 import Images from '@/Presskit/Images/Images'
 import Logos from '@/Presskit/Logos/Logos'
 import Credits from '@/Presskit/Credits/Credits'
+import ImageItem from '@/Components/ImageItem'
+
+import YureiKeyartLogo from '@/Images/keyart-logo.png'
 
 function MainColumn(props:any) {
     
@@ -14,7 +17,11 @@ function MainColumn(props:any) {
 
     return (
         <div className={className}>
-            <h1>MainColumn</h1>
+            <ImageItem 
+              center 
+              large 
+              src={YureiKeyartLogo} 
+              alt="Yurei logo" />
             <Synopsis />
             <About />
             <Videos />

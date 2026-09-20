@@ -17,13 +17,25 @@ function ImageItem(props:any) {
     quality = props.quality;
   }
 
-  return (
-    <a 
-      href={props.src.src}
-      download={props.filename}
-      className={className}
-      target="_blank"
-    >
+  if (props.filename) {
+    return (
+      <a 
+        href={props.src.src}
+        download={props.filename}
+        className={className}
+        target="_blank"
+      >
+        <ExportedImage 
+          src={props.src} 
+          sizes={sizes}
+          alt={props.alt} 
+          className="mx-auto"
+          basePath='/yurei-presskit'
+        />
+      </a>
+    );
+  } else {
+    return (
       <ExportedImage 
         src={props.src} 
         sizes={sizes}
@@ -31,8 +43,8 @@ function ImageItem(props:any) {
         className="mx-auto"
         basePath='/yurei-presskit'
       />
-    </a>
-  );
+    );
+  }
 }
 
 export default ImageItem;
