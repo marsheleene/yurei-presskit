@@ -21,7 +21,7 @@ const descriptionPage = "Yūrei is a psychological horror game set in a manga’
 export const metadata: Metadata = {
   title: titlePage,
   description: descriptionPage,
-  metadataBase: new URL("https://marsheleene.github.io/yurei-presskit/"),
+  metadataBase: new URL("https://marsheleene.github.io/"),
   openGraph: {
     title: titlePage,
     description: descriptionPage,
