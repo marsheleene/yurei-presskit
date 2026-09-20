@@ -1,3 +1,5 @@
+import Spacing from '@/Components/Spacing';
+
 import TOC from '@/Presskit/TOC/TOC'
 import FactSheet from '@/Presskit/FactSheet/FactSheet'
 
@@ -10,8 +12,10 @@ function LeftColumn(props:any) {
 
     return (
         <div className={className}>
-            <h1>LeftColumn</h1>
             <TOC />
+
+            <Spacing />
+
             <FactSheet />
         </div>
     );

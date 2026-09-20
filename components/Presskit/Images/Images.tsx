@@ -7,7 +7,7 @@ import Screenshot03 from '@/Images/yurei-screenshot03.jpg'
 function Images() {
   return (
     <>
-      <h2>Images</h2>
+      <h2 id="images">Images</h2>
 
       <div className="grid grid-cols-2 gap-8">
         <ImageItem src={Screenshot01} filename="yurei-screenshot01.jpg" alt="Yurei screenshot" />

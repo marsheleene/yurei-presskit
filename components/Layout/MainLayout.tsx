@@ -5,20 +5,20 @@ import MainColumn from '@/Layout/MainColumn';
 
 function MainLayout(props:any) {
     
-    let className = ""
+    let className = "m-12"
     if (props.className) {
         className += " " + props.className;
     }
 
     return (
         <div className={className}>
-            <header>
-                <Header />
+            <header className="mb-12">
+              <Header />
             </header>
 
-            <main className="grid grid-cols-3 gap-10">
-              <LeftColumn className="col-span-1" />
-              <MainColumn className="col-span-2" />
+            <main className="mx-32 flex flex-row justify-center gap-20">
+              <LeftColumn className="flex-none w-50" />
+              <MainColumn className="flex-1 max-w-200" />
             </main>
 
             <footer>

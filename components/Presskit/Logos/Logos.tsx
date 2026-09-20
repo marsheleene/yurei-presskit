@@ -2,14 +2,14 @@ import ImageItem from '@/Components/ImageItem'
 
 import Logo from '@/Images/yurei-logo.png'
 import KeyartLandscape from '@/Images/yurei-keyart-landscape.png'
-import KeyartLogoLandscape from '@/Images/yurei-keyart-logo-landscape.png'
+import KeyartLogoLandscape from '@/Images/yurei-keyart+logo-landscape.png'
 import KeyartPortrait from '@/Images/yurei-keyart-portrait.png'
-import KeyartLogoPortrait from '@/Images/yurei-keyart-logo-portrait.png'
+import KeyartLogoPortrait from '@/Images/yurei-keyart+logo-portrait.png'
 
 function Logos() {
   return (
     <>
-      <h2>Logos & Key Art</h2>
+      <h2 id="logos">Logos & Key Art</h2>
 
       <div className="grid grid-cols-2 gap-8">
 
@@ -27,7 +27,7 @@ function Logos() {
           
         <ImageItem 
           src={KeyartLogoLandscape}
-          filename="yurei-keyart-logo-landscape.png" 
+          filename="yurei-keyart+logo-landscape.png" 
           alt="Yurei keyart+logo" />
 
         <ImageItem 
@@ -37,7 +37,7 @@ function Logos() {
           
         <ImageItem 
           src={KeyartLogoPortrait}
-          filename="yurei-keyart-logo-portrait.png" 
+          filename="yurei-keyart+logo-portrait.png" 
           alt="Yurei keyart+logo" />
       
       </div>
