@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     description: descriptionPage,
     images: [
       {
-          url: Keyart.src,
+          url: "./images/yurei-keyart-logo-landscape-small.png",
           alt: "Yūrei key art"
       }
     ],
@@ -42,6 +42,12 @@ export const metadata: Metadata = {
     site: "https://marsheleene.github.io/yurei-presskit/",
     creator: "Team Yūrei",
     card: 'summary_large_image',
+    images: [
+      {
+          url: "./images/yurei-keyart-logo-landscape-small.png",
+          alt: "Yūrei key art"
+      }
+    ],
   },
 };
 
