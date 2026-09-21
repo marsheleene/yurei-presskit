@@ -10,7 +10,7 @@ function Images() {
     <>
       <h2 id="images">Images</h2>
 
-      <a href="https://drive.google.com/uc?export=download&id=1NdwmVuTmaNcc6Sn6lKxVcZ47kpoIhkuo">Download all the assets</a>
+      <a href="https://drive.google.com/uc?export=download&id=1NdwmVuTmaNcc6Sn6lKxVcZ47kpoIhkuo" target="_blank">Download all the assets</a>
 
       <Spacing />
 

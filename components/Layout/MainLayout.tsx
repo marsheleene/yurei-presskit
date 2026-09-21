@@ -39,7 +39,7 @@ const useMediaQuery = (width:number) => {
 
 function MainLayout(props:any) {
     
-  let className = "m-4 sm:m-12"
+  let className = "m-4 md:m-12"
   if (props.className) {
     className += " " + props.className;
   }
