@@ -7,11 +7,12 @@
   --link-color: var(--accentuate-color);
 }
 
-@theme inline {
+@theme {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --breakpoint-md: 56rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -42,7 +43,7 @@ h2 {
 }
 
 h3 {
-  @apply text-xl;
+  @apply font-bold;
 }
 
 em {

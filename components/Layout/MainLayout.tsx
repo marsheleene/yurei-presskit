@@ -11,7 +11,7 @@ import Spacing from '@/Components/Spacing';
 
 import { useState, useCallback, useEffect } from 'react';
 
-const useMediaQuery = (width:number) => {
+const useMediaQuery = (width:string) => {
   const [targetReached, setTargetReached] = useState(false);
 
   const updateTarget = useCallback((e:any) => {
@@ -23,7 +23,7 @@ const useMediaQuery = (width:number) => {
   }, []);
 
   useEffect(() => {
-    const media = window.matchMedia(`(max-width: ${width}px)`);
+    const media = window.matchMedia(`(max-width: ${width})`);
     media.addListener(updateTarget);
 
     // Check on mount (callback is not called until a change occurs)
@@ -44,7 +44,7 @@ function MainLayout(props:any) {
     className += " " + props.className;
   }
 
-  const isBreakpoint = useMediaQuery(768)
+  const isBreakpoint = useMediaQuery("56rem")
   
   return (
     <div className={className}>
@@ -64,8 +64,8 @@ function MainLayout(props:any) {
 
       ) : (
 
-        <main className="mx-32 flex flex-row justify-center gap-20">
-          <LeftColumn className="flex-1 max-w-32" />
+        <main className="mx-20 flex flex-row justify-center gap-20">
+          <LeftColumn className="flex-1 max-w-50" />
           <MainColumn className="flex-1 min-w-100 max-w-200" />
         </main>
 
