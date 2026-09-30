@@ -20,7 +20,7 @@ function FactSheet() {
 
       <Spacing />
 
-      <h3>Platforms</h3>
+      <h3>Platforms:</h3>
       <ul>
         <li><a href="." >Steam</a></li>
       </ul>
