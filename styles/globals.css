@@ -42,7 +42,19 @@ h2 {
   @apply my-4 text-xl font-bold tracking-wider;
 }
 
+h2::before {
+  content: "- ";
+}
+
+h2::after {
+  content: " -";
+}
+
 h3 {
+  @apply text-lg font-bold;
+}
+
+h4 {
   @apply font-bold;
 }
 
@@ -64,6 +76,10 @@ a {
 a:hover {
   @apply scale-105 transition duration-150;
   font-weight: bold;
+}
+
+p {
+  @apply mb-4;
 }
 
 hr {

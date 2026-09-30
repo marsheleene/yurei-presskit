@@ -1,4 +1,5 @@
 import ImageItem from '@/Components/ImageItem'
+import Spacing from '@/Components/Spacing'
 
 import Logo from '@/Images/yurei-logo.png'
 import KeyartLandscape from '@/Images/yurei-keyart-landscape.png'
@@ -10,6 +11,10 @@ function Logos() {
   return (
     <>
       <h2 id="logos">Logos & Key Art</h2>
+
+      <a href="https://drive.google.com/uc?export=download&id=1NdwmVuTmaNcc6Sn6lKxVcZ47kpoIhkuo" target="_blank">Download all the assets</a>
+
+      <Spacing />
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 

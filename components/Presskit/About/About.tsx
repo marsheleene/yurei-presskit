@@ -1,12 +1,71 @@
+import ImageItem from '@/Components/ImageItem'
+import Spacing from '@/Components/Spacing'
+
+import Bibliomania from '@/Images/bibliomania.jpg'
+import Blame from '@/Images/blame.png'
+import HouseOfLeaves from '@/Images/house-of-leaves.jpg'
+import Opus from '@/Images/opus.png'
+import Uzumaki from '@/Images/uzumaki.jpg'
+
 function About() {
   return (
     <>
       <h2 id="about">About the game</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dapibus, odio id consequat posuere, nisl nisl maximus nisi, ut interdum lorem est eget purus. Ut ut sagittis justo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Curabitur in pharetra lorem. In vulputate mi pretium nulla pretium tempus. Pellentesque placerat velit eu laoreet vestibulum. Vivamus aliquam rhoncus urna eget porttitor. Aliquam fermentum elit id mattis vulputate. Proin rutrum turpis quis vestibulum euismod. Fusce id ex eu massa efficitur porttitor at vel urna. Sed tincidunt dui non nibh bibendum ultrices.</p>
-      <p>Aliquam quis tincidunt leo, non interdum ex. Ut molestie urna nunc. Donec eleifend purus lacus, ac rutrum erat maximus quis. Nulla imperdiet est convallis, convallis magna volutpat, pretium augue. Vestibulum a lectus egestas, porta ex et, eleifend est. In semper quis nisl vel molestie. Ut lobortis eros egestas efficitur pharetra. Proin in ex tellus. Nunc sollicitudin ante vel nisi aliquam gravida. Nulla facilisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque sapien ut eros euismod, sit amet finibus justo vulputate. Phasellus viverra tellus ac libero blandit, tempus tincidunt tortor venenatis. Phasellus ac dolor vitae odio ullamcorper ultrices. Praesent sit amet odio et dui rhoncus semper. Vivamus volutpat dui et erat rhoncus cursus.</p>
-      <p>Curabitur diam sapien, molestie id massa at, fermentum molestie nisl. In ultricies tellus erat, sed pulvinar ligula semper in. Nullam vel ultricies metus, sed rhoncus arcu. Aenean nec viverra ipsum. Donec lacinia ex at purus dignissim, in efficitur mi elementum. Cras tristique lorem vitae lacinia feugiat. Quisque a eros gravida, commodo diam vitae, aliquam nulla. Vestibulum condimentum urna magna, congue posuere ante malesuada at. Sed vulputate sem quis metus maximus, et finibus turpis eleifend. Nam et euismod nunc, nec vulputate arcu.</p>
-      <p>Maecenas auctor viverra laoreet. Maecenas et felis et nunc pretium ultrices. Maecenas iaculis placerat mattis. Curabitur sed sapien sit amet dui elementum luctus. Sed nec consectetur enim. Nam posuere sodales fermentum. Nulla non ex et diam dignissim maximus in vitae odio.</p>
-      <p>Fusce id ante enim. Proin dictum tempor dignissim. In vel mi felis. Nunc tincidunt odio a tellus tristique, ac volutpat enim auctor. Sed egestas ipsum ut nibh tincidunt bibendum. Mauris nec blandit erat, ornare rhoncus nibh. Donec a arcu eu nulla pretium viverra luctus in quam. Praesent at orci ac neque eleifend ultrices. Sed tempus odio viverra arcu bibendum lacinia. </p>
+
+      <p>
+        Yūrei is developed by a team of passionate graduates from Cnam-Enjmin (Angoulême), one of France’s leading video game development public schools. 
+        We've all had experience within the video game industry, from a variety of studios ranging from small indie project to AAA.
+      </p>
+
+      <p>
+        With Yūrei, we want to play with a medium we love. We want to craft a highly curated short narrative experience with 
+        a strong and distinctive creative vision, while having slower-paced and accessible gameplay.
+      </p>
+
+      <p>
+        Yūrei offers a unique immersion in the manga medium, playing with its conventions, letting you play in a beautiful yet haunted work of art.
+        Our main inspirations come from horror mangas or works that already play with the medium. To cite a few: Junji Ito, Bibliomania, Opus, Blame! or House of Leaves.
+      </p>
+
+      <p>
+        These intentions began to take shape as a vertical slice during our end-of-year project, which received overwhelmingly positive feedback
+        at the different festivals we attended. 
+        This encouraged us to continue developing the game further, for people with a deep love for experimental and narrative-driven games, 
+        as well as mangas and horror.
+      </p>
+
+      <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
+        <div className="grid gap-4">
+            <div>
+              <ImageItem src={Uzumaki} alt="Uzumaki" className="h-auto max-w-full rounded-lg object-cover object-center"/>
+            </div>
+            <div>
+              <ImageItem src={Bibliomania} alt="Bibliomania" className="h-auto max-w-full rounded-lg object-cover object-center"/>
+            </div>
+        </div>
+        <div className="grid gap-4">
+            <div>
+              <ImageItem src={Blame} alt="Blame" className="h-auto max-w-full rounded-lg object-cover object-center"/>
+            </div>
+            <div>
+              <ImageItem src={HouseOfLeaves} alt="House of Leaves" className="h-auto max-w-full rounded-lg object-cover object-center"/>
+            </div>
+        </div>
+        <div className="grid gap-4 col-span-2">
+            <div>
+              <ImageItem src={Opus} alt="Opus" className="h-auto max-w-full rounded-lg object-cover object-center"/>
+            </div>
+        </div>
+      </div>
+
+      <Spacing />
+
+      <p>As for video games, we are hugely inspired by works such as Silent Hill 2, Resident Evil 1 or Liberated.</p>
+
+      <p>
+        Manga is incredibly popular, while horror remains a strong genre within the indie game scene. We think Yūrei brings these two worlds together 
+        in an unique way.
+      </p>
     </>
   );
 }

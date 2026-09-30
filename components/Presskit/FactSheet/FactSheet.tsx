@@ -15,6 +15,11 @@ function FactSheet() {
 
       <Spacing />
 
+      <h3>Duration:</h3>
+      <p>2-3 hours</p>
+
+      <Spacing />
+
       <h3>Platforms</h3>
       <ul>
         <li><a href="." >Steam</a></li>
@@ -29,9 +34,10 @@ function FactSheet() {
 
       <h3>Socials:</h3>
       <ul>
-        <li><a href="." >Instagram</a></li>
-        <li><a href="." >Bluesky</a></li>
-        <li><a href="." >Tiktok</a></li>
+        <li className="my-4"><a href="https://www.instagram.com/teamyureigame/" >Instagram</a></li>
+        <li className="my-4"><a href="https://x.com/TeamYureigame" >X</a></li>
+        <li className="my-4"><a href="https://bsky.app/profile/teamyureigame.bsky.social" >Bluesky</a></li>
+        <li className="my-4"><a href="https://www.youtube.com/@YureiGameYoutube">YouTube</a></li>
       </ul>
     </>
   );

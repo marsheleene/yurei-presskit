@@ -1,5 +1,6 @@
 import Synopsis from '@/Presskit/Synopsis/Synopsis'
 import About from '@/Presskit/About/About'
+import Features from '@/Presskit/Features/Features'
 import Videos from '@/Presskit/Videos/Videos'
 import Images from '@/Presskit/Images/Images'
 import Logos from '@/Presskit/Logos/Logos'
@@ -31,6 +32,8 @@ function MainColumn(props:any) {
             <Synopsis />
 
             <About />
+
+            <Features />
             
             <Separator />
 
