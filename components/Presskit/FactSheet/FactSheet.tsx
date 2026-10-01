@@ -23,6 +23,7 @@ function FactSheet() {
       <h3>Platforms:</h3>
       <ul>
         <li><a href="." >Steam</a></li>
+        <li><a href="https://cybertoasty.itch.io/yurei" target="_blank">itch.io (demo)</a></li>
       </ul>
 
       <Spacing />
