@@ -13,24 +13,24 @@ function About() {
       <h2 id="about">About the game</h2>
 
       <p>
-        Yūrei is developed by a team of passionate graduates from Cnam-Enjmin (Angoulême), one of France's leading public schools for video game development.
-        We've all had experience in the video game industry at studios ranging from small indie teams to AAA.
+        Yūrei is developed by a <b>team of passionate graduates from Cnam-Enjmin </b>(Angoulême), one of France's leading public schools for video game development.
+        We've all had <b>experience in the video game industry</b> at studios ranging from <b>small indie teams to AAA</b>.
       </p>
 
       <p>
-        With Yūrei, we want to play with a medium we love. We aim to craft a highly curated, short narrative experience with
-        a strong, distinctive creative vision and slow-paced, accessible gameplay.
+        With Yūrei, we want to <b>play with a medium we love</b>. We aim to craft a<b> highly curated</b>, <b>short narrative experience</b> with
+        a <b>strong creative vision</b> and <b>slow-paced</b>, <b>accessible gameplay</b>.
       </p>
 
       <p>
-        Yūrei offers a unique immersion in the manga medium, playing with its conventions and letting you play into a beautiful yet haunted work of art.
-        Our main inspirations include horror manga and other works that play with the medium, including works by Junji Ito, Bibliomania, Opus, Blame!, and House of Leaves.
+        Yūrei offers a unique <b>immersion in the manga medium</b>, playing with its conventions and letting you play into a <b>beautiful yet haunted work of art</b>.
+        Our main inspirations include <b>mangas with a dark atmosphere</b>, <b>playing with the medium</b>, including works by Junji Ito and titles like Bibliomania, Opus, Blame!, and House of Leaves.
       </p>
 
       <p>
-        These intentions began to take shape as a vertical slice during our end-of-year project, which received overwhelmingly positive feedback
+        These intentions began to take shape as a <b>vertical slice</b> during our end-of-year project, which received <b>overwhelmingly positive feedback</b>
         at the different festivals we attended. 
-        This encouraged us to keep developing the game for people who love experimental and narrative-driven games as well as mangas and horror.
+        This encouraged us to keep developing the game for people who love <b>experimental and narrative-driven games</b> as well as <b>mangas and horror</b>.
       </p>
 
       <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
@@ -59,11 +59,11 @@ function About() {
 
       <Spacing />
 
-      <p>As for video games, we are hugely inspired by works such as Silent Hill 2, Resident Evil 1 or Liberated.</p>
+      <p>As for video games, we are hugely inspired by works such as <b>Silent Hill 2, Resident Evil 1</b> or <b>Liberated</b>.</p>
 
       <p>
-        Manga is incredibly popular, while horror remains a strong genre within the indie game scene. We think Yūrei brings these two worlds together 
-        in a unique way.
+        Manga is <b>incredibly popular</b>, while horror remains a <b>strong genre within the indie game scene</b>. We think Yūrei brings these two worlds together 
+        <b> in a unique way</b>.
       </p>
     </>
   );
