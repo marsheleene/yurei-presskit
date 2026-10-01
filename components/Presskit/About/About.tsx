@@ -13,25 +13,24 @@ function About() {
       <h2 id="about">About the game</h2>
 
       <p>
-        Yūrei is developed by a team of passionate graduates from Cnam-Enjmin (Angoulême), one of France’s leading video game development public schools. 
-        We've all had experience within the video game industry, from a variety of studios ranging from small indie project to AAA.
+        Yūrei is developed by a team of passionate graduates from Cnam-Enjmin (Angoulême), one of France's leading public schools for video game development.
+        We've all had experience in the video game industry at studios ranging from small indie teams to AAA.
       </p>
 
       <p>
-        With Yūrei, we want to play with a medium we love. We want to craft a highly curated short narrative experience with 
-        a strong and distinctive creative vision, while having slower-paced and accessible gameplay.
+        With Yūrei, we want to play with a medium we love. We aim to craft a highly curated, short narrative experience with
+        a strong, distinctive creative vision and slow-paced, accessible gameplay.
       </p>
 
       <p>
-        Yūrei offers a unique immersion in the manga medium, playing with its conventions, letting you play in a beautiful yet haunted work of art.
-        Our main inspirations come from horror mangas or works that already play with the medium. To cite a few: Junji Ito, Bibliomania, Opus, Blame! or House of Leaves.
+        Yūrei offers a unique immersion in the manga medium, playing with its conventions and letting you play into a beautiful yet haunted work of art.
+        Our main inspirations include horror manga and other works that play with the medium, including works by Junji Ito, Bibliomania, Opus, Blame!, and House of Leaves.
       </p>
 
       <p>
         These intentions began to take shape as a vertical slice during our end-of-year project, which received overwhelmingly positive feedback
         at the different festivals we attended. 
-        This encouraged us to continue developing the game further, for people with a deep love for experimental and narrative-driven games, 
-        as well as mangas and horror.
+        This encouraged us to keep developing the game for people who love experimental and narrative-driven games as well as mangas and horror.
       </p>
 
       <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
@@ -64,7 +63,7 @@ function About() {
 
       <p>
         Manga is incredibly popular, while horror remains a strong genre within the indie game scene. We think Yūrei brings these two worlds together 
-        in an unique way.
+        in a unique way.
       </p>
     </>
   );
