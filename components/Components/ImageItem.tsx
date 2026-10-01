@@ -28,7 +28,7 @@ function ImageItem(props:any) {
           src={props.src} 
           sizes={sizes}
           alt={props.alt} 
-          className="mx-auto"
+          className={`block ml-auto w-full ${props.imageClassName ?? ""}`}
           basePath='/yurei-presskit'
         />
       </a>
@@ -39,7 +39,7 @@ function ImageItem(props:any) {
         src={props.src} 
         sizes={sizes}
         alt={props.alt} 
-        className="mx-auto"
+        className={`block ml-auto ${props.imageClassName ?? ""}`}
         basePath='/yurei-presskit'
       />
     );

@@ -25,7 +25,8 @@ function MainColumn(props:any) {
               center 
               large 
               src={KeyartLogo} 
-              alt="Yurei logo" />
+              alt="Yurei logo"
+              imageClassName="w-full max-w-2xl" />
 
             <Separator />
 

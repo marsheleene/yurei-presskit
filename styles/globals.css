@@ -33,13 +33,13 @@ body {
 }
 
 h1 {
-  @apply my-4 text-4xl md:text-6xl tracking-wide;
+  @apply my-4 text-4xl md:text-5xl tracking-wide;
   font-family: var(--font-brushstroke-horror);
   text-transform: uppercase;
 }
 
 h2 {
-  @apply my-4 text-xl font-bold tracking-wider;
+  @apply my-2.5 text-xl font-bold tracking-wider;
 }
 
 h2::before {
@@ -76,6 +76,11 @@ a {
 a:hover {
   @apply scale-105 transition duration-150;
   font-weight: bold;
+}
+
+.social-icon {
+  display: inline-block;
+  filter: grayscale(1) sepia(1) saturate(6) hue-rotate(310deg);
 }
 
 p {

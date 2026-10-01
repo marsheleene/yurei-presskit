@@ -6,12 +6,12 @@ function Videos() {
       <h2 id="videos">Videos</h2>
 
       <h3>Trailer</h3>
-      <iframe src="https://www.youtube.com/embed/OostqysyVPE" className="w-full aspect-video" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+      <iframe src="https://www.youtube.com/embed/OostqysyVPE" className="block w-full max-w-[28rem] aspect-video mx-auto" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
 
       <Spacing />
 
       <h3>Vertical Slice playthrough</h3>
-      <iframe src="https://www.youtube.com/embed/FYOwYOIxVrk" className="w-full aspect-video" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+      <iframe src="https://www.youtube.com/embed/FYOwYOIxVrk" className="block w-full max-w-[28rem] aspect-video mx-auto" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
     </>
   );
 }

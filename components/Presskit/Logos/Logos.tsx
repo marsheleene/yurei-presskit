@@ -23,27 +23,32 @@ function Logos() {
           large 
           src={Logo}
           filename="yurei-logo.png" 
-          alt="Yurei logo" />
+          alt="Yurei logo"
+          imageClassName="max-w-xs mx-auto" />
 
         <ImageItem 
           src={KeyartLandscape}
           filename="yurei-keyart-landscape.png" 
-          alt="Yurei keyart" />
+          alt="Yurei keyart"
+          imageClassName="max-w-sm mx-auto" />
           
         <ImageItem 
           src={KeyartLogoLandscape}
           filename="yurei-keyart+logo-landscape.png" 
-          alt="Yurei keyart+logo" />
+          alt="Yurei keyart+logo"
+          imageClassName="max-w-sm mx-auto" />
 
         <ImageItem 
           src={KeyartPortrait}
           filename="yurei-keyart-portrait.png" 
-          alt="Yurei keyart" />
+          alt="Yurei keyart"
+          imageClassName="max-w-xs mx-auto" />
           
         <ImageItem 
           src={KeyartLogoPortrait}
           filename="yurei-keyart+logo-portrait.png" 
-          alt="Yurei keyart+logo" />
+          alt="Yurei keyart+logo"
+          imageClassName="max-w-xs mx-auto" />
       
       </div>
     </>
