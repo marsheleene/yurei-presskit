@@ -9,7 +9,7 @@ import ImageItem from '@/Components/ImageItem'
 
 import Separator from '@/Components/Separator'
 
-import KeyartLogo from '@/Images/yurei-keyart+logo-landscape.png'
+import KeyartLogo from '@/Images/yurei-keyart1.png'
 
 function MainColumn(props:any) {
     

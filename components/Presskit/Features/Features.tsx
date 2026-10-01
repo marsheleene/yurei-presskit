@@ -6,8 +6,8 @@ function Features() {
       <h2>Main features</h2>
 
       <p>
-        The game features a unique mechanic of skimming through the manga pages at and rewrite any page in order to make different choices and change their
-        outcome. 
+        The game features an unique mechanic: at any point, the player can skim through the manga pages and rewrite (replay) any page already visited
+        in order to make different choices and possibly change the outcome of next pages.
       </p>
       <p>
         With their "inking" power, Jun can chose to remove elements from the manga's world by absorbing cursed ink then use this ink to complete unfinished sketches.
