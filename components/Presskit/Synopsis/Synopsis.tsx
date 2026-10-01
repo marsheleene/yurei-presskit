@@ -4,25 +4,25 @@ function Synopsis() {
       <h2 id="synopsis">Synopsis</h2>
 
       <p>
-        Yūrei is a single-player psychological horror game set in a manga's haunted pages.
-        You play as a mangaka absorbed into their own creation and you must rewrite the narrative to break the curse.
+        Yūrei is a <b>single-player psychological horror game</b> set in a <b>manga's haunted pages</b>.
+        <br></br><b>Play as a mangaka</b> absorbed into their own creation and <b>rewrite the narrative</b> to break the curse.
       </p>
 
       <p>
-        Jun, a worn-out mangaka, is going through a creative block and feels the need to revisit some old material.
-        They stumble upon an unfinished horror story, inspired by their traumatic relationship with their childhood friends.
-        As Jun opens the book, they are mysteriously absorbed into it. 
+        You play as Jun, a worn-out mangaka going <b>through a creative block</b>. They feel the need to <b>revisit some old material</b> and
+        stumble upon an <b>unfinished horror story</b>, inspired by their <b>traumatic relationship</b> with their childhood friends.
+        As Jun <b>opens the book</b>, they are mysteriously <b>absorbed into it</b>. 
       </p>
 
       <p>
-        They soon learn they are trapped by the manga itself and forced to continue the story to complete it. But Jun will realize
-        that the manga's true intentions are far darker. Their past will be turned against them, twisted and altered until Jun can no longer
-        discern the truth from the lies the manga whispers in their ears.
+        They soon learn they are <b>trapped by the manga itself</b> which <b>forces them to complete the story</b>. But Jun will realize
+        that the <b>manga's true intentions are far darker</b>. Their <b>past will be turned against them</b>, twisted and altered until Jun can no longer
+        <b> discern the truth from the lies</b> the manga whispers in their ears.
       </p>
 
       <p>
-        Page after page, as they uncover memories of their lost friends, it will be up to Jun and the player to choose whether
-        to make peace with and accept the truth, as painful as it is, or to bask in denial and reject everyone and everything.
+        Page after page, as they <b>uncover memories of their lost friends</b>, it will be <b>up to Jun and the player</b> to choose whether
+        to make peace with and <b>accept the truth</b>, as painful as it is, or to <b>bask in denial</b> and reject everyone and everything.
       </p>
     </>
   );

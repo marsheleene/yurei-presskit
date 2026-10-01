@@ -87,6 +87,9 @@ p {
   @apply mb-4;
 }
 
+b{
+  font-weight:580;
+}
 hr {
   border-color: var(--accentuate-color);
   border-width: 2px;
