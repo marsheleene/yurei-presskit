@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Fredoka } from 'next/font/google';
 import localFont from 'next/font/local';
 
-import Keyart from '@/Images/yurei-keyart-logo-landscape.png';
 import '@/Styles/globals.css';
 
 const fredoka = Fredoka({ 
@@ -27,7 +26,7 @@ export const metadata: Metadata = {
     description: descriptionPage,
     images: [
       {
-          url: "./images/yurei-keyart-logo-og.webp",
+          url: "./images/yurei-keyart-og.png",
           alt: "Yurei key art"
       }
     ],
@@ -44,7 +43,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     images: [
       {
-          url: "./images/yurei-keyart-logo-og.webp",
+          url: "./images/yurei-keyart-og.png",
           alt: "Yurei key art"
       }
     ],
