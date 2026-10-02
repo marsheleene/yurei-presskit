@@ -78,6 +78,17 @@ a:hover {
   font-weight: bold;
 }
 
+.factsheet-link {
+  padding: 0.45rem 0.7rem;
+  border-radius: 0.5rem;
+  background-color: rgb(250 92 92 / 14%);
+  text-decoration: none;
+}
+
+.factsheet-link:hover {
+  background-color: rgb(250 92 92 / 24%);
+}
+
 .social-icon {
   display: inline-block;
   filter: grayscale(1) sepia(1) saturate(6) hue-rotate(310deg);
