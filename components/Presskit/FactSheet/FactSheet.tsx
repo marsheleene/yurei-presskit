@@ -22,8 +22,8 @@ function FactSheet() {
 
       <h3>Platforms:</h3>
       <ul>
-        <li className="my-4"><a className="factsheet-link" href="https://store.steampowered.com/app/" target="_blank" rel="noopener noreferrer"><span className="social-icon" aria-hidden="true">⚙️</span>・Steam</a></li>
-        <li className="my-4"><a className="factsheet-link" href="https://cybertoasty.itch.io/yurei" target="_blank" rel="noopener noreferrer"><span className="social-icon" aria-hidden="true">🎮</span>・itch.io</a></li>
+        <li className="my-4"><a className="factsheet-link" href="https://store.steampowered.com/app/" target="_blank" rel="noopener noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" className="social-icon" aria-hidden="true" />・Steam</a></li>
+        <li className="my-4"><a className="factsheet-link" href="https://cybertoasty.itch.io/yurei" target="_blank" rel="noopener noreferrer"><img src="https://static.itch.io/images/itchio-textless-white.svg" className="social-icon" aria-hidden="true" />・itch.io</a></li>
       </ul>
 
       <Spacing />
@@ -35,9 +35,10 @@ function FactSheet() {
 
       <h3>Socials:</h3>
       <ul>
-        <li className="my-4"><a className="factsheet-link" href="https://www.instagram.com/yureigame/" target="_blank" rel="noopener noreferrer"><span className="social-icon" aria-hidden="true">📸</span>・Instagram</a></li>
-        <li className="my-4"><a className="factsheet-link" href="https://bsky.app/profile/yureigame.bsky.social" target="_blank" rel="noopener noreferrer"><span className="social-icon" aria-hidden="true">🦋</span>・Bluesky</a></li>
-        <li className="my-4"><a className="factsheet-link" href="https://www.youtube.com/@YureiGameYoutube" target="_blank" rel="noopener noreferrer"><span className="social-icon" aria-hidden="true">▶️</span>・YouTube</a></li>
+        <li className="my-4"><a className="factsheet-link" href="https://www.instagram.com/yureigame/" target="_blank" rel="noopener noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" className="social-icon" aria-hidden="true" />・Instagram</a></li>
+        <li className="my-4"><a className="factsheet-link" href="https://bsky.app/profile/yureigame.bsky.social" target="_blank" rel="noopener noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Bluesky_Logo.svg" className="social-icon" aria-hidden="true" />・Bluesky</a></li>
+        <li className="my-4"><a className="factsheet-link" href="https://www.youtube.com/@YureiGameYoutube" target="_blank" rel="noopener noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_(2017).svg" className="social-icon" aria-hidden="true" />・YouTube</a></li>
+        <li className="my-4"><a className="factsheet-link" href="https://www.tiktok.com/@yureigametiktok" target="_blank" rel="noopener noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Tiktok_icon.svg" className="social-icon" aria-hidden="true"/>・TikTok</a></li>
       </ul>
     </>
   );

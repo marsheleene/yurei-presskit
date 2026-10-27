@@ -91,6 +91,7 @@ a:hover {
 
 .social-icon {
   display: inline-block;
+  width: 1.3em;
   filter: grayscale(1) sepia(1) saturate(6) hue-rotate(310deg);
 }
 
